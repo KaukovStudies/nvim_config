@@ -4,4 +4,5 @@
 -- See the kickstart.nvim README for more information
 return {
   require 'custom.plugins.noice',
+  require 'custom.plugins.go_nvim',
 }
