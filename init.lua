@@ -702,6 +702,9 @@ require('lazy').setup({
       vim.cmd.hi 'NonText ctermbg=none'
       vim.cmd.hi 'SignColumn guibg=none'
       vim.cmd.hi 'SignColumn ctermbg=none'
+      vim.cmd.hi 'NormalNC guibg=none ctermbg=none'
+      vim.cmd.hi 'NeoTreeNormal guibg=none ctermbg=none'
+      vim.cmd.hi 'NeoTreeNormalNC guibg=none ctermbg=none'
     end,
   },
 
