@@ -6,4 +6,5 @@ return {
   require 'custom.plugins.noice',
   require 'custom.plugins.go_nvim',
   require 'custom.plugins.peek',
+  require 'custom.plugins.crates',
 }
