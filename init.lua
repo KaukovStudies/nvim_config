@@ -46,7 +46,7 @@ vim.o.smartcase = true
 -- Keep signcolumn on by default
 vim.o.signcolumn = 'yes'
 
-vim.opt.colorcolumn = '80,120'
+vim.o.colorcolumn = '80,120'
 
 -- Decrease update time
 vim.o.updatetime = 250
@@ -90,7 +90,7 @@ vim.o.confirm = true
 
 -- Clear highlights on search when pressing <Esc> in normal mode
 --  See `:help hlsearch`
-vim.opt.hlsearch = true
+vim.o.hlsearch = true
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
 -- Diagnostic keymaps
