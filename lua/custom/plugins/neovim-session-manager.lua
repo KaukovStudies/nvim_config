@@ -16,9 +16,8 @@ return {
         require('session_manager').save_current_session()
       end,
     })
-    local config = require 'session_manager.config'
     return {
-      autoload_mode = config.AutoloadMode.CurrentDir,
+      autoload_mode = require('session_manager.config').AutoloadMode.CurrentDir,
     }
   end,
 }
